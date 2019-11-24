@@ -1,4 +1,4 @@
-﻿namespace DQ
+﻿namespace DQ.Token
 {
     public enum TokenType
     {
@@ -8,6 +8,7 @@
         CloseArray,
         Symbol,
         Comma,
+        Dot,
         Literal,
         Operator,
         Unknown,
