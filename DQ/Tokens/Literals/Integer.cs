@@ -10,5 +10,10 @@ namespace DQ.Tokens.Literals
         {
             Value = value;
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj) && Value == (obj as Integer).Value;
+        }
     }
 }
